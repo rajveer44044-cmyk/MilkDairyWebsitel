@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Fresh Dairy & Paneer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-cheese"></i> Nature's Dairy
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Paneer & Dairy<br>Delivered to Your Door</h1>
+            <p>Pure, organic, and rich in taste. Directly from the farm to your table.</p>
+            <a href="#products" class="btn">View Products</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Farm Fresh Quality</h3>
+                    <p>We believe in providing the purest dairy products. Our cows are grass-fed, and our paneer is made fresh every morning. No preservatives, no artificial colors—just pure nutrition.</p>
+                </div>
+                <div class="about-img">
+                    <!-- Placeholder Image -->
+                    <img src="https://placehold.co/600x400/e8f5e9/2e7d32?text=Farm+Fresh" alt="Cow in farm">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://placehold.co/300x300/ffffff/2e7d32?text=Fresh+Paneer" alt="Paneer">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fresh Paneer</h3>
+                        <p>Soft, crumbly, and made fresh daily.</p>
+                        <span class="price">₹120 / kg</span>
+                        <button class="btn-sm">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://placehold.co/300x300/ffffff/2e7d32?text=Pure+Milk" alt="Milk">
+                    </div>
+                    <div class="product-info">
+                        <h3>Desi Cow Milk</h3>
+                        <p>Pure and nutritious A2 milk.</p>
+                        <span class="price">₹60 / liter</span>
+                        <button class="btn-sm">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://placehold.co/300x300/ffffff/2e7d32?text=Desi+Ghee" alt="Ghee">
+                    </div>
+                    <div class="product-info">
+                        <h3>Desi Ghee</h3>
+                        <p>Clarified butter for pure immunity.</p>
+                        <span class="price">₹450 / kg</span>
+                        <button class="btn-sm">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://placehold.co/300x300/ffffff/2e7d32?text=Curd" alt="Curd">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fresh Curd</h3>
+                        <p>Creamy homemade yogurt.</p>
+                        <span class="price">₹40 / kg</span>
+                        <button class="btn-sm">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Dairy Farm Road, City, State</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@naturesdairy.com</p>
+                </div>
+                <form class="contact-form" id="orderForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Product Interested In" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Nature's Dairy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
